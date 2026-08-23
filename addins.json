@@ -2,7 +2,7 @@
   "version": 1,
   "publisher": "msarson",
   "name": "Mark Sarson",
-  "updated": "2026-08-22",
+  "updated": "2026-08-23",
   "addins": [
     {
       "id": "GitPane",
@@ -99,6 +99,20 @@
       "downloadZipUrl": "https://github.com/msarson/clarion-csv-editor/releases/download/v0.2.0/ClarionCsvEditor-v0.2.0.zip",
       "homepageUrl": "https://github.com/msarson/clarion-csv-editor",
       "changelogUrl": "https://github.com/msarson/clarion-csv-editor/blob/main/CHANGELOG.md"
+    }
+  ],
+  "setupAddins": [
+    {
+      "id": "ClarionSetupTestAddin",
+      "name": "Clarion Setup Test Addin (TEMPORARY TEST ENTRY)",
+      "description": "TEST FIXTURE — does nothing, and is here only while Addin Finder's setup-installer support is being tested. It registers no pads, menu items or commands. If you are reading this in a released Addin Finder, the entry was left behind by mistake: it is safe to ignore, and safe to uninstall from Add/Remove Programs if you installed it.",
+      "author": "msarson",
+      "authorUrl": "https://github.com/msarson",
+      "license": "MIT",
+      "category": "Utilities",
+      "githubRepo": "msarson/ClarionSetupTestAddin",
+      "homepageUrl": "https://github.com/msarson/ClarionSetupTestAddin",
+      "changelogUrl": "https://github.com/msarson/ClarionSetupTestAddin/blob/main/CHANGELOG.md"
     }
   ]
 }
